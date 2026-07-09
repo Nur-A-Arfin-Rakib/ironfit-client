@@ -1,94 +1,133 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EF4444&height=180&section=header&text=IronFit&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Fitness%20%26%20Gym%20Management%20Platform&descAlignY=62&descSize=16" width="100%"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://ironfit-client.vercel.app"><img src="https://img.shields.io/badge/Live%20Site-Visit-F97316?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-</p>
+# 🏋️‍♂️ IronFit
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-</p>
+### Fitness & Gym Management Platform
 
----
+Trainer booking · Membership management · Fitness tracking — all in one place.
 
-## 📖 About
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-**IronFit** is a full-stack fitness and gym management platform built to make fitness accessible and organized. Users can browse and book certified trainers, manage gym memberships, and track their fitness journey — all from one clean, responsive dashboard.
+[🌐 Live Site](https://ironfit-client.vercel.app) · [🐞 Report Bug](../../issues) · [✨ Request Feature](../../issues)
 
----
-
-## ✨ Key Features
-
-| Feature | Description |
-|---|---|
-| 🏋️ **Trainer Booking** | Browse trainer profiles and book sessions with ease |
-| 🎫 **Membership Management** | View and manage gym membership plans |
-| 📈 **Fitness Tracking** | Track workouts and fitness progress over time |
-| 🔐 **Secure Authentication** | Firebase-powered login & account system |
-| 📱 **Fully Responsive** | Seamless experience across mobile, tablet, and desktop |
-
----
-
-## 🛠️ Tech Stack
-
-<table>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>React · Vite · Tailwind CSS</td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td>Node.js · Express.js</td>
-  </tr>
-  <tr>
-    <td><b>Database</b></td>
-    <td>MongoDB</td>
-  </tr>
-  <tr>
-    <td><b>Authentication</b></td>
-    <td>Firebase Auth</td>
-  </tr>
-  <tr>
-    <td><b>Deployment</b></td>
-    <td>Vercel</td>
-  </tr>
-</table>
+</div>
 
 ---
 
 ## 📸 Preview
 
-<!-- Paste your screenshot image code here, e.g. -->
-<!-- <img width="1918" alt="IronFit homepage" src="your-image-link-here" /> -->
+<img width="1549" height="784" alt="Image" src="https://github.com/user-attachments/assets/2d490703-834e-4236-9c5c-120c75eacb58" />
 
 ---
 
-## 🔗 Links
+## 📖 About The Project
 
-- 🌐 **Live Site:** [ironfit-client.vercel.app](https://ironfit-client.vercel.app)
-- 💻 **Client Repo:** *(this repo)*
-- ⚙️ **Server Repo:** *(add link)*
+**IronFit** is a full-stack fitness and gym management platform designed to simplify how gyms, trainers, and members interact. It brings trainer booking, membership plans, and fitness progress tracking together in a single, easy-to-use dashboard — built for both gym owners and members.
+
+### ✨ Key Features
+
+- 🔐 **Secure Authentication** — Firebase-powered login & registration
+- 🧑‍🏫 **Trainer Booking** — Browse trainers and book sessions with ease
+- 💳 **Membership Management** — Flexible plans and subscription handling
+- 📊 **Fitness Tracking** — Monitor progress and activity over time
+- 📱 **Responsive Design** — Seamless experience across all devices
+- ⚡ **Fast & Modern UI** — Built with Vite and Tailwind CSS for speed and polish
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| **Frontend** | React, Vite, Tailwind CSS |
+| **Backend** | Node.js, Express |
+| **Database** | MongoDB |
+| **Authentication** | Firebase Auth |
+| **Deployment** | Vercel |
 
 ---
 
 ## 🚀 Getting Started
 
-```bash
-git clone <this-repo-url>
-cd ironfit-client
-npm install
-npm run dev
-```
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- MongoDB connection URI
+- Firebase project credentials
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Nur-A-Arfin-Rakib/ironfit-client.git
+   cd ironfit-client
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+
+   Create a `.env` file in the root directory and add:
+   ```env
+   VITE_API_URL=your_backend_api_url
+   VITE_FIREBASE_API_KEY=your_firebase_api_key
+   VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+   VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-<p align="center">
-  Made with 💪 by <a href="https://github.com/Nur-A-Arfin-Rakib">Nur A Arfin Rakib</a>
-</p>
+## 🌐 Live Demo
+
+👉 **[ironfit-client.vercel.app](https://ironfit-client.vercel.app)**
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 📬 Contact
+
+**Nur-A-Arfin-Rakib** — [GitHub Profile](https://github.com/Nur-A-Arfin-Rakib)
+
+Project Link: [https://github.com/Nur-A-Arfin-Rakib/ironfit-client](https://github.com/Nur-A-Arfin-Rakib/ironfit-client)
+
+---
+
+<div align="center">
+
+Made with ❤️ and 💪 by **Nur-A-Arfin-Rakib**
+
+</div>
